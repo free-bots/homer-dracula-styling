@@ -1,0 +1,56 @@
+@charset "UTF-8";
+
+body #app .card {
+  border-radius: 1rem;
+  margin: 1rem;
+}
+
+body .tag {
+  transition: all .2s cubic-bezier(0, 4.74, 1, 1.29);
+  border-radius: 1rem;
+}
+
+body .navbar-link, a.navbar-item {
+    border-radius: 1rem;
+    margin: 5px;
+}
+
+body #bighead .navbar {
+  border-radius: 1rem;
+  margin: auto;
+  width: 90%;
+  max-width: 1360px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+body #bighead .navbar a:focus, body #bighead .navbar a:hover {
+  border-radius: 1rem;
+  margin-top: 5px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+}
+
+body .navbar-burger {
+  margin-top: 5px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+}
+
+body .search-bar .search-label:before {
+  top: 16px;
+}
+
+body .search-bar input {
+  margin: 0;
+  height: 40px;
+  border-radius: 1rem;
+  transition: all .2s cubic-bezier(0, 1.19, 0.85, 0.97);
+}
+
+body .search-bar input:focus {
+  background-color: #f8f8f2;
+  outline-color: #ff79c6;
+  outline-style: solid;
+  outline-width: 1px;
+}
